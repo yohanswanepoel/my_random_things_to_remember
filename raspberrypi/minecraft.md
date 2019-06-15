@@ -37,7 +37,7 @@ minetest --server  --gameid minetest --worldname world &`
 
 ## Where to add the mods
 * `cp -r [mod] ~/snap/minetest/current/.minetest/mods/`
-* enable mod in /snap/minetest/current/worlds/world/world.mt file by adding load_mod_[modname]=true
+* enable mod in ~/snap/minetest/current/worlds/world/world.mt file by adding load_mod_[modname]=true
 * restart server
 
 ## TODO
