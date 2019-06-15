@@ -1,1 +1,3 @@
-# my_random_things_to_remember
+# Random Things to Remember
+
+This is a repo of commands and snippets I find useful
