@@ -5,6 +5,7 @@ podman run -d \
  --volume /opt/jellyfin/config:/config \
  --volume /opt/jellyfin/cache:/cache \
  --volume /media/plex:/media \
- - 8096:8096 \
+ -p 8096:8096 \
+ -p 53160:53160/udp \
  jellyfin/jellyfin
  ```
