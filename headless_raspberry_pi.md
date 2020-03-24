@@ -21,7 +21,7 @@ network={
 ```
 
 4. Boot PI and ssh in
-* on Mac terman run `ssh pi@raspberry.local` (or similar in your network)
+* on Mac termaninal run `ssh pi@raspberrypi.local` (or similar in your network)
 
 5. Change PI hostname
 * in PI terminal run `raspi-config`
