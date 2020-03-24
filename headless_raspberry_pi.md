@@ -10,7 +10,7 @@
 * on a Mac in a terminal run `cd /Volumes/boot`
 * vi wpa_supplicant.conf
 * Populate with
-`
+```
 country=AU # Your 2-digit country code
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 network={
@@ -18,7 +18,7 @@ network={
     psk="[YOUR WIFI PASSWORD]"
     key_mgmt=WPA-PSK
 }
-`
+```
 
 4. Boot PI and ssh in
 * on Mac terman run `ssh pi@raspberry.local` (or similar in your network)
