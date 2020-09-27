@@ -1,0 +1,2 @@
+#Backup PI over Network
+ssh [piuser]@[piIP] "sudo dd if=/dev/mmcblk0 bs=1M" | dd of=~/Downloads/backup/[filenane].img
