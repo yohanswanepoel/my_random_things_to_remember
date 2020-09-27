@@ -3,3 +3,6 @@
 Logon to host: ssh -i ~/.crc/machines/crc/id_rsa core@192.168.130.11
 
 If you have PV issues: /sysroot/ostree/deploy/rhcos/var/mnt/pv-data
+
+Backup things: oc get all -o yaml
+
